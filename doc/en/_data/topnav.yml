@@ -1,0 +1,104 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+
+ 
+    - title: Download
+      url: /download.html
+      hint: "Installing the app"
+
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+
+
+    - title: News
+      folderitems:
+
+        - title: News
+          url: /news.html
+          hint: "The Dank u Project news"
+
+        - title: Roadmap
+          external_url: https://github.com/Canardoux/danku/projects/1
+          hint: A better Dank u
+
+        - title: Changelog
+          url: /changelog.html
+          hint: "Log of all changes in The Dank u Project"
+
+
+
+    - title: Repo
+      folderitems:
+
+        - title: Github
+          external_url: https://github.com/Canardoux/danku
+ 
+        - title: Gitlab
+          external_url: https://gitlab.com/canardoux/danku
+          hint: A great FOSS (Free and Open Source Software) alternative to Github
+
+        - title: Problem Report
+          external_url: https://github.com/Canardoux/danku/issues
+          hint: Problem Report
+
+
+    - title: Sharing
+      folderitems:
+
+        - title: Slack
+          external_url: https://tau-t7l7803.slack.com
+          hint: "Slack is not Open Source Software :-("
+
+        - title: Element
+          hint: "Free and Open Source. Based on Open Source Protocols"
+          external_url: https://app.element.io/#/room/#tau:matrix.org
+
+        - title: Discord
+          hint: "Unfortunately not Open Source"
+          external_url: https://discord.com/channels/799683099473870848/799683099473870852
+
+
+    - title: Language
+      folderitems:
+
+        - title: English
+          url: /english.html
+
+        - title: French
+          url: /french.html
+
+
+    - title: Stats
+      folderitems:
+        - title: Dank u Doc
+          hint: Google Analytics on the DankuDoc
+          external_url: https://analytics.google.com/analytics/web/#/p276308667/reports/defaulthome
+
+        - title: Stendent's stats
+          external_url: https://titi.com
+
+        - title: Teacher's stats
+          external_url: https://zozo.com
+
+        - title: Developer's stats
+          external_url: https://zazi.com
+
+        - title: Dank u Web stats
+          external_url: https://momo.com
+
+
+
+    - title: Roles
+      folderitems:
+        - title: The teacher doc
+          url: /teacher_landing_page.html
+        - title: The student doc
+          url: /student_landing_page.html
+        - title: The contributor doc
+          url: /contributor_landing_page.html
